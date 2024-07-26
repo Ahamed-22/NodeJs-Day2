@@ -4,7 +4,7 @@ const bodyParser = require("body-parser");
 
 httpServer.use(bodyParser.json());
 
-httpServer.listen(3000, "localhost", () => {
+httpServer.listen(3000, "0.0.0.0", () => {
   console.log("Server is running on port 3000");
 });
 
